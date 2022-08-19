@@ -17,4 +17,8 @@ if [ "$TAG" != null ]
   else
     docker build -t stephenneal/nginx-react:1.21-alpine-v1 "${DIR}"/1.21-alpine-v1/
     docker build -t stephenneal/nginx-react:1.21-alpine-v1-dev "${DIR}"/1.21-alpine-v1-dev/
+    docker build -t stephenneal/nginx-react:1.22-alpine-v1 "${DIR}"/1.22-alpine-v1/
+    docker build -t stephenneal/nginx-react:1.22-alpine-v1-dev "${DIR}"/1.22-alpine-v1-dev/
+    docker build -t stephenneal/nginx-react:1.23-alpine-v1 "${DIR}"/1.23-alpine-v1/
+    docker build -t stephenneal/nginx-react:1.23-alpine-v1-dev "${DIR}"/1.23-alpine-v1-dev/
 fi

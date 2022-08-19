@@ -19,4 +19,8 @@ if [ "$TAG" != null ]
 
     docker push stephenneal/nginx-react:1.21-alpine-v1
     docker push stephenneal/nginx-react:1.21-alpine-v1-dev
+    docker push stephenneal/nginx-react:1.22-alpine-v1
+    docker push stephenneal/nginx-react:1.22-alpine-v1-dev
+    docker push stephenneal/nginx-react:1.23-alpine-v1
+    docker push stephenneal/nginx-react:1.23-alpine-v1-dev
 fi
