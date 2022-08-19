@@ -15,9 +15,9 @@ jobs:
                     1.21-alpine-v1,
                     1.21-alpine-v1-dev,
                     1.22-alpine-v1,
-                    1.22-alpine-v1-http,
+                    1.22-alpine-v1-dev,
                     1.23-alpine-v1,
-                    1.23-alpine-v1-http,
+                    1.23-alpine-v1-dev,
                 ]
 
         name: Docker Push | TAG - ${{ matrix.tag }}
